@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wakeBus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+301400ec7c8d1ce987be65e1c56ffd2f6b68da8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("wakeBus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wakeBus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
