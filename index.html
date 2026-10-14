@@ -99,7 +99,7 @@
         divMapa.style.display = 'none';
 
         try {
-            const response = await fetch(`http://localhost:5176/api/rotas/${codigo}`);
+            const response = await fetch(`https://wakebus.onrender.com/api/rotas/${codigo}`);
             if (!response.ok) {
                 statusEl.innerText = "❌ Linha não encontrada.";
                 statusEl.style.color = "red";
@@ -208,7 +208,7 @@
 
         try {
             statusAdmin.innerText = "💾 Salvando no Backend (C#)...";
-            const response = await fetch('http://localhost:5176/api/rotas', {
+           const response = await fetch('https://wakebus.onrender.com/api/rotas', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(novaRota)
